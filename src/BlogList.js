@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTrashAlt } from "@fortawesome/fontawesome-free-regular";
 
-const BlogList = ({ blogs, handleDelete }) => {
+const BlogList = ({ blogs }) => {
   return (
     <div className="blog-list">
       {blogs.map((blog) => (
