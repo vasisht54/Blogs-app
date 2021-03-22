@@ -8,10 +8,7 @@ const BlogList = ({ blogs, handleDelete }) => {
         <div className="blog-preview" key={blog.id}>
           <h2>{blog.title}</h2>
           <p>Written by {blog.author}</p>
-          <FontAwesomeIcon
-            onClick={() => handleDelete(blog.id)}
-            icon={faTrashAlt}
-          />
+          <FontAwesomeIcon icon={faTrashAlt} />
         </div>
       ))}
     </div>

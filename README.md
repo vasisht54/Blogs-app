@@ -4,12 +4,12 @@
 
 Run
 
-> npx json-server --watch data/db.json --port 8000
+`npm run json:server`
 
 to start the Json Server
 
 Run
 
-> npm run start
+`npm run start`
 
 to run the app on http://localhost:3000/
