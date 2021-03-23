@@ -1,5 +1,3 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faTrashAlt } from "@fortawesome/fontawesome-free-regular";
 import { Link } from "react-router-dom";
 
 const BlogList = ({ blogs }) => {
@@ -11,7 +9,6 @@ const BlogList = ({ blogs }) => {
             <h2>{blog.title}</h2>
             <p>By {blog.author}</p>
           </Link>
-          <FontAwesomeIcon icon={faTrashAlt} />
         </div>
       ))}
     </div>

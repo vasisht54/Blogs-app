@@ -14,8 +14,7 @@
     },
     {
       "title": "Web Dev with React!",
-      "body":
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id illum non dolorum eaque quasi. Eligendi obcaecati incidunt pariatur odio ea. Animi tempore repudiandae quis totam nisi. In porro totam provident!",
+      "body": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id illum non dolorum eaque quasi. Eligendi obcaecati incidunt pariatur odio ea. Animi tempore repudiandae quis totam nisi. In porro totam provident!",
       "author": "Oscar Martinez",
       "id": 3
     }
